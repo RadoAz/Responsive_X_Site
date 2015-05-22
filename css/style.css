@@ -194,6 +194,8 @@ header {
           font-size: 27px; }
     .page .gallery .arrow, .page .gallery .bridge, .page .gallery .girl {
       height: 283px; }
+    .page .content h2 {
+      font-size: 25px; }
     .page .content .content-container p {
       font-size: 14px; } }
 /*TABLET-SMALL*/
