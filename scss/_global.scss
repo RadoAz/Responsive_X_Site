@@ -39,11 +39,17 @@ body {
 
       h2 {
         color: #a8d6e0;
+
+        &:after {
+          font-family: 'FontAwesome';
+          content: "\f054";
+          color: #fff;
+        }
       }
     }
 
     .cta-block {
-
+      width: 100%;
       .cta-box {
         background: #27212c;
 

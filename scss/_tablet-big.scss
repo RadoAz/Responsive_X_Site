@@ -2,4 +2,84 @@
 
 @media only screen and (min-width: 641px) and (max-width: 980px) {
 
+  .page {
+    max-width: 980px;
+
+    header {
+      padding: 40px 50px;
+      height: 100px;
+
+      ul {
+
+        li {
+          float: left;
+          font-size: 18px;
+          margin-right: 25px;
+        }
+      }
+    }
+
+    .title-banner {
+      height: 550px;
+
+      h1 {
+        font-size: 66px;
+        color: #fff;
+        width: 470px;
+        margin-bottom: 25px;
+      }
+
+      h2 {
+        font-size: 25px;
+        display: block;
+
+        &:after {
+          margin-left: 30px;
+          font-size: 25px;
+        }
+      }
+    }
+
+    .cta-block {
+      height: 235px;
+
+      .cta-box {
+        padding-right: 112px;
+
+        h2 {
+          font-size: 27px;
+        }
+      }
+    }
+
+    .gallery  {
+
+      .arrow, .bridge, .girl {
+        height: 283px;
+      }
+
+      .arrow .fa {
+
+      }
+    }
+
+    .content {
+
+      .content-container {
+
+        h2 {
+
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+
+
+
+  }
 }
+
+
