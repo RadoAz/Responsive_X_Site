@@ -1,0 +1,98 @@
+body {
+  width: 100%;
+  font-family: 'Myriad Pro';
+
+  .page {
+    max-width: 1025px;
+    margin: 0 auto;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+
+      &:hover {
+        color: yellow;
+      }
+    }
+
+    header {
+      background: #373c3f;
+      color: #fff;
+      width: 100%;
+      box-sizing: border-box;
+
+      li {
+        color: #fff;
+        text-transform: uppercase;
+      }
+    }
+
+    .title-banner {
+      background: #14afc2;
+      width: 100%;
+      box-sizing: border-box;
+      position: relative;
+
+      h1 {
+        color: #fff;
+      }
+
+      h2 {
+        color: #a8d6e0;
+      }
+    }
+
+    .cta-block {
+
+      .cta-box {
+        background: #27212c;
+
+        h2 {
+          color: #72657d;
+        }
+      }
+
+      a {
+        display: block;
+        background: #bc3183;
+      }
+    }
+
+    .gallery {
+      width: 100%;
+
+      .arrow {
+        background: #5b0fa1;
+        position: relative;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .content {
+      color: #515151;
+      background: #ebebeb;
+
+      h2 {
+        color: #088ca5;
+      }
+    }
+  }
+
+  .fa {
+    color: #fff;
+    display: block;
+    position: absolute;
+  }
+
+  .clearfix {
+    content: "";
+    clear: both;
+    width: 0;
+    height: 0;
+  }
+}
+
