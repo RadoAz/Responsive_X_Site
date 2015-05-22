@@ -96,6 +96,10 @@ body {
 header {
   padding: 40px 50px;
   height: 100px; }
+  header p {
+    display: none; }
+  header .menu-button {
+    display: none; }
   header ul li {
     float: left;
     font-size: 18px;
@@ -199,6 +203,56 @@ header {
     .page .content .content-container p {
       font-size: 14px; } }
 /*TABLET-SMALL*/
+@media only screen and (min-width: 321px) and (max-width: 640px) {
+  .page {
+    max-width: 640px; }
+    .page header {
+      height: 75px;
+      padding: 0;
+      position: relative; }
+      .page header p {
+        display: block;
+        font-size: 25px;
+        color: #fff;
+        width: 120px;
+        float: left;
+        margin-top: 25px;
+        margin-left: 50px; }
+      .page header .menu-button {
+        display: block;
+        width: 75px;
+        height: 100%;
+        position: relative;
+        float: right;
+        background: #202529; }
+        .page header .menu-button .fa-bars {
+          color: #fff;
+          font-size: 45px;
+          position: absolute;
+          top: 19%;
+          left: 23%; }
+      .page header ul {
+        display: none;
+        position: absolute;
+        z-index: 9999;
+        top: 75px;
+        background: #202529; }
+        .page header ul li {
+          float: none;
+          width: 640px;
+          height: 60px;
+          text-align: center;
+          line-height: 60px; }
+          .page header ul li:hover {
+            background: #68f96b; }
+          .page header ul li:hover a {
+            color: yellow; }
+          .page header ul li a {
+            font-size: 25px;
+            width: 640px;
+            display: block; }
+      .page header .menu-button:hover header ul {
+        display: block; } }
 /*PHONE*/
 
 /*# sourceMappingURL=style.css.map */

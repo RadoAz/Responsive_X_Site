@@ -2,4 +2,140 @@
 
 @media only screen and (min-width: 321px) and (max-width: 640px) {
 
+  .page {
+    max-width: 640px;
+
+    header {
+      height: 75px;
+      padding: 0;
+      position: relative;
+
+      p {
+        display: block;
+        font-size: 25px;
+        color: #fff;
+        width: 120px;
+        float: left;
+        margin-top: 25px;
+        margin-left: 50px;
+      }
+
+      .menu-button {
+        display: block;
+        width: 75px;
+        height: 100%;
+        position: relative;
+        float: right;
+        background: #202529;
+
+        .fa-bars {
+          color: #fff;
+          font-size: 45px;
+          position: absolute;
+          top: 19%;
+          left: 23%;
+        }
+      }
+
+      ul {
+        display: none;
+        position: absolute;
+        z-index: 9999;
+        top: 75px;
+        background: #202529;
+
+        li {
+          float: none;
+          width: 640px;
+          height: 60px;
+          text-align: center;
+          line-height: 60px;
+
+          &:hover {
+            background: #68f96b;
+          }
+
+          &:hover a {
+            color: yellow;
+          }
+
+          a {
+            font-size: 25px;
+            width: 640px;
+            display: block;
+          }
+        }
+      }
+
+      .menu-button:hover header ul {
+        display: block;
+      }
+    }
+
+    .title-banner {
+
+
+      h1 {
+
+      }
+
+      h2 {
+
+
+        &:after {
+
+        }
+      }
+    }
+
+    .cta-block {
+
+
+      .cta-box {
+
+
+        h2 {
+
+        }
+      }
+
+      a {
+
+
+        .fa {
+
+        }
+      }
+    }
+
+    .gallery  {
+
+      .arrow, .bridge, .girl {
+
+      }
+
+      .arrow .fa {
+
+      }
+    }
+
+    .content {
+
+
+      h2 {
+
+      }
+
+      .content-container {
+
+        p {
+
+        }
+
+        p + p {
+
+        }
+      }
+    }
+  }
 }
